@@ -1,4 +1,4 @@
-const fiveLetterWords = [
+export const fiveLetterWords = [
   "apple", "brave", "charm", "daisy", "eagle", "flame", "globe", "happy", "index", "jolly",
   "karma", "lemon", "mango", "noble", "ocean", "pearl", "quick", "robot", "sunny", "tiger",
   "umbra", "vivid", "whale", "xerox", "yacht", "zebra", "adobe", "beach", "candy", "drain",
