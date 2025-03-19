@@ -28,13 +28,3 @@ export const programmingWords = [
 
 
 
-const programmingWo = [
-  "babel", "block", "break", "bytes", "chalk", "click", "clone", "cloud", "codec", "const",
-  "crash", "crypt", "debug", "delta", "digit", "drain", "event", "fetch", "field", "flush",
-  "frame", "fresh", "gantt", "globs", "guard", "haste", "index", "input", "jumps", "kudos",
-  "logic", "loops", "macro", "merge", "model", "mocks", "moust", "nodes", "nomad", "npmjs",
-  "parse", "patch", "pipes", "pivot", "print", "proxy", "query", "queue", "react", "redux",
-  "scope", "serve", "slice", "stack", "store", "stubs", "suite", "super", "svelt", "swash",
-  "table", "toast", "token", "tuple", "types", "unset", "valid", "value", "vhost", "vital",
-  "vuejs", "while", "width", "write", "zodjs"
-];
