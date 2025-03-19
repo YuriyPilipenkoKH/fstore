@@ -1,33 +1,40 @@
 export const fiveLetterWords = [
-  "apple", "brave", "charm", "daisy", "eagle", "flame", "globe", "happy", "index", "jolly",
-  "karma", "lemon", "mango", "noble", "ocean", "pearl", "quick", "robot", "sunny", "tiger",
-  "umbra", "vivid", "whale", "xerox", "yacht", "zebra", "adobe", "beach", "candy", "drain",
-  "elbow", "fancy", "grape", "horse", "ivory", "jumbo", "knack", "latch", "mirth", "north",
-  "orbit", "piano", "quake", "ranch", "swoop", "tweak", "unity", "vowel", "wrist", "xenon",
-  "yield", "zesty", "angry", "blink", "climb", "demon", "enjoy", "frost", "gloom", "haunt",
-  "image", "jolly", "kudos", "lunar", "motto", "nerdy", "onset", "plaza", "quirk", "risky",
-  "storm", "truce", "upend", "verge", "whisk", "xeric", "yodel", "zebra", "amber", "bloom",
-  "crisp", "delve", "ember", "flood", "grasp", "hover", "ingot", "jazzy", "koala", "lance",
-  "mirth", "novel", "ounce", "plush", "quilt", "rider", "slime", "token", "ulcer", "vigor",
-  "waver", "xylem", "youth", "zonal", "alloy", "bison", "chess", "dwell", "ethos", "frank",
-  "glint", "hefty", "inner", "joust", "kneel", "latch", "mixer", "nifty", "optic", "prone",
-  "quirk", "rover", "sworn", "tryst", "uncut", "vixen", "wield", "xenon", "yacht", "zesty",
-  "anvil", "bored", "civic", "deter", "evoke", "flour", "grime", "hover", "inlet", "jazzy",
-  "knelt", "leapt", "mirth", "nexus", "otter", "pivot", "query", "rouse", "skirt", "tulip",
-  "unzip", "vapor", "wrung", "xenon", "yeast", "zebra", "acorn", "baker", "creek", "drown",
-  "elude", "flare", "grape", "haste", "irony", "joker", "kappa", "latch", "mango", "noble",
-  "omega", "petal", "quilt", "ranch", "serum", "thorn", "urban", "vowel", "whale", "xenon",
-  "yodel", "zebra", "azure", "brisk", "coast", "diver", "eager", "flick", "gorge", "hound",
-  "ingot", "jumpy", "knack", "lodge", "magic", "nudge", "ounce", "prank", "quest", "rival",
-  "spurt", "torch", "unify", "vexed", "waltz", "xeric", "yacht", "zonal", "alpha", "brave",
-  "churn", "dodge", "easel", "flare", "grind", "hoist", "ivory", "jumbo", "kneel", "lapse",
-  "mirth", "nerdy", "optic", "plume", "quash", "risky", "shrub", "track", "utter", "viper",
-  "woven", "xenon", "yield", "zebra", "amble", "blaze", "creep", "douse", "ether", "flint",
-  "grove", "hitch", "image", "jolly", "knack", "latch", "moist", "nifty", "orbit", "pound",
-  "query", "rover", "slink", "throb", "unzip", "vigor", "whisk", "xerox", "youth", "zebra",
-  "adapt", "bloom", "crown", "droop", "elbow", "flute", "grace", "hover", "inbox", "jazzy",
-  "kneel", "latch", "moist", "noble", "optic", "proud", "quilt", "ranch", "swoop", "tweak",
-  "unity", "vowel", "wrist", "xenon", "yield", "zesty", "alloy", "bison", "chess", "dwell",
-  "ethos", "frank", "glint", "hefty", "inner", "joust", "kneel", "latch", "mixer", "nifty",
-  "optic", "prone", "quirk", "rover", "sworn", "tryst", "uncut", "vixen", "wield", "xenon"
+  "acorn", "alloy", "amber", "amble", "angry", "anvil", "apple", "aster", "azure", "baker",
+  "beach", "bison", "blink", "blaze", "bloom", "brave", "brisk", "candy", "charm", "chess",
+  "climb", "civic", "coast", "crown", "daisy", "deter", "diver", "drain", "droop", "dwell",
+  "elbow", "elude", "ember", "enjoy", "ether", "evoke", "flare", "flame", "flint", "flood",
+  "frost", "grape", "grime", "grove", "gloom", "grasp", "grind", "haste", "hefty", "hello",  "hover",
+  "hound", "image", "index", "ivory", "joker", "jolly", "jumpy", "karma", "knack", "kneel",
+  "knelt", "lance", "latch", "lemon", "leapt", "light", "lodge", "magic", "mango", "mirth",
+  "moist", "mixer", "north", "novel", "ocean", "optic", "ounce", "pearl",
+  "plaza", "petal", "pivot", "prank", "proud", "query", "quick", "ranch", "rider", "rover",
+  "risky", "rival", "robot", "storm", "swoop", "token", "thorn", "track", "truce", "tulip",
+  "tweak", "unity", "vapor", "vexed", "vigor", "vivid", "vowel", "waver", "waltz", "whale",
+  "whisk", "world", "woman", "xenon", "xeric", "xylem", "yield", "yacht", "yodel", "youth", "zebra",
+  "zesty", "zonal", 
+];
+
+export const programmingWords = [
+  "admin","array", "axios", "batch", "babel", "block", "break", "buggy", "bytes", "cache", "catch",  "check","class", "click", "clone", "clerk", "daisy",
+  "cloud", "codec", "comma", "const", "crash", "crypt", "cursor", "debug", "delta", "deque",
+  "digit", "email", "enter", "error", "event", "fetch", "field","focus", "flush", "frame","front", "graph","ghost", "guard", "hashs", "hello","hover", "index",
+  "input", "label", "logic", "login", "loops", "macro", "merge", "mkdir", "modal", "model", "mongo", "mouse", "nodes", "order", "parse", "patch","photo",
+  "pipes", "pivot", "print", "props", "proxy","pulse", "query", "queue", "ratio", "react", "redux", "regex","reset", "route", "scale","scope",  "super",
+  "slice", "state", "stack", "stamp","space", "store", "style", "stubs", "table","title", "theme", "toast", "token", "touch", "tuple", "types", "unset", "valid",
+  "value", "vuejs", "while", "where", "width","world", "write", "zodjs"
+];
+
+
+
+
+
+const programmingWo = [
+  "babel", "block", "break", "bytes", "chalk", "click", "clone", "cloud", "codec", "const",
+  "crash", "crypt", "debug", "delta", "digit", "drain", "event", "fetch", "field", "flush",
+  "frame", "fresh", "gantt", "globs", "guard", "haste", "index", "input", "jumps", "kudos",
+  "logic", "loops", "macro", "merge", "model", "mocks", "moust", "nodes", "nomad", "npmjs",
+  "parse", "patch", "pipes", "pivot", "print", "proxy", "query", "queue", "react", "redux",
+  "scope", "serve", "slice", "stack", "store", "stubs", "suite", "super", "svelt", "swash",
+  "table", "toast", "token", "tuple", "types", "unset", "valid", "value", "vhost", "vital",
+  "vuejs", "while", "width", "write", "zodjs"
 ];
