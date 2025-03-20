@@ -15,13 +15,13 @@ export const fiveLetterWords = [
 ];
 
 export const programmingWords = [
-  "admin","array", "axios", "batch", "babel", "block", "break", "buggy", "bytes", "cache", "catch",  "check","class", "click", "clone", "clerk", "daisy",
-  "cloud", "codec", "comma", "const", "crash", "crypt", "cursor", "debug", "delta", "deque",
-  "digit", "email", "enter", "error", "event", "fetch", "field","focus", "flush", "frame","front", "graph","ghost", "guard", "hashs", "hello","hover", "index",
-  "input", "label", "logic", "login", "loops", "macro", "merge", "mkdir", "modal", "model", "mongo", "mouse", "nodes", "order", "parse", "patch","photo",
-  "pipes", "pivot", "print", "props", "proxy","pulse", "query", "queue", "ratio", "react", "redux", "regex","reset", "route", "scale","scope",  "super",
-  "slice", "state", "stack", "stamp","space", "store", "style", "stubs", "table","title", "theme", "toast", "token", "touch", "tuple", "types", "unset", "valid",
-  "value", "vuejs", "while", "where", "width","world", "write", "zodjs"
+  "admin","abort","alert","align","apple","apply","amend","aside","async","await", "array", "axios", "batch", "babel","begin", "block", "break", "buggy", "bytes", "cache", "catch",  "check","class", "click", "clone", "clerk", "daisy","delay",
+  "cloud", "codec", "comma","color", "const","count","clean", "clear", "crash", "crypt",  "debug", "delta", "deque",
+  "digit", "email","empty", "enter", "error", "event","every","false", "fetch", "field","focus","float", "flush", "frame","front", "graph","ghost","gmail", "guard",  "hello","hover","https","index","infer",
+  "input", "label","light", "limit", "linux","local", "logic", "login", "loops", "macro","media","match", "merge", "mkdir", "modal", "model", "mongo", "mouse", "nodes", "order","owner", "parse", "patch","photo",
+  "pipes", "pivot", "print", "props","proto", "proxy","press","pulse", "query", "queue", "ratio", "react", "redux", "regex", "reset", "right","round", "route", "scale","scope", "split", "super",
+  "slice","shift", "state","stash", "stack", "stamp","start", "space", "store", "style", "stubs","swift", "table","title", "theme","throw", "toast", "token","total", "touch","track","trunc", "tuple", "types", "unset", "valid",
+  "value", "vuejs", "while", "where","weight", "width","world", "write", 
 ];
 
 
