@@ -10,7 +10,7 @@ export const grabWords = async (req, res) => {
     });
     
   } catch (error) {
-    console.log('Error in  grabWords', error);
+    console.log('Error in  grabWords controller', error);
     res.status(500).json({ message: 'Server error' })
   }
 }

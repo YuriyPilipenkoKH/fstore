@@ -1,5 +1,6 @@
 import express from 'express';
 import { grabWords } from '../controllers/grab-words.js';
+import { matchWord } from '../controllers/match-word.js';
 
 
 const router = express.Router();
@@ -12,6 +13,6 @@ router.get("/", (req, res) => {
 
 router.get("/grab",  grabWords );
 
-// router.get("/match",  matchWord );
+router.get("/match",  matchWord );
 
 export default router;
