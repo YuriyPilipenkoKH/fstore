@@ -13,6 +13,8 @@ router.get("/", (req, res) => {
 
 router.get("/grab",  grabWords );
 
+router.get("/random",  randomWord );
+
 router.patch("/match",  matchWord );
 
 export default router;
