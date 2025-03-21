@@ -1,4 +1,5 @@
-import { programmingWords } from "../data/words.js";
+import { programmingWords } from "./grab-words.js";
+
 
 
 export const randomWord = async (req, res) => {

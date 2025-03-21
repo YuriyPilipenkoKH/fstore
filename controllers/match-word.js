@@ -1,4 +1,5 @@
-import { programmingWords } from "../data/words.js";
+import { programmingWords } from "./grab-words.js";
+
 
 export const matchWord = async (req, res) => {
   const {word} = req.body
@@ -13,12 +14,14 @@ export const matchWord = async (req, res) => {
       res.status(200).json({
         message: "Good guess",
         isMatched: true ,
+        word
       });
     }
     else {
       res.status(200).json({
         message: "Wrong",
         isMatched: false ,
+        word
       });
     }
   } catch (error) {

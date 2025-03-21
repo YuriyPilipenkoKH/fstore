@@ -1,4 +1,8 @@
-import { programmingWords } from "../data/words.js";
+import dotenv from 'dotenv';
+dotenv.config()
+
+export const programmingWords = process.env.PROG_WORDS ? process.env.PROG_WORDS.split(',') : [];
+
 
 
 export const grabWords = async (req, res) => {
