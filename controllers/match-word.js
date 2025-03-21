@@ -10,7 +10,7 @@ export const matchWord = async (req, res) => {
     });
    }
   try {
-    if(programmingWords.includes(word)){ 
+    if(programmingWords.includes(word.toLowerCase())){ 
       res.status(200).json({
         message: "Good guess",
         isMatched: true ,
