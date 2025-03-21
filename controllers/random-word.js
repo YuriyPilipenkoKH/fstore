@@ -15,5 +15,3 @@ export const randomWord = async (req, res) => {
     res.status(500).json({ message: 'Server error' })
   }
 }
-// const randomWord = response.words[Math.floor(Math.random() * response.words.length)]
-// setSolution(randomWord)
